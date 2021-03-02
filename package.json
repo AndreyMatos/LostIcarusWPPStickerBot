@@ -1,0 +1,25 @@
+{
+  "name": "losticaruswppstickerbot",
+  "version": "1.0.0",
+  "description": "A simple whatsapp sticker bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "startDebug": "node index.mjs --trace-warnings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyMatos/LostIcarusWPPStickerBot.git"
+  },
+  "author": "Andrey Matos",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.6.13",
+    "chalk": "^4.1.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyMatos/LostIcarusWPPStickerBot/issues"
+  },
+  "homepage": "https://github.com/AndreyMatos/LostIcarusWPPStickerBot#readme"
+}
